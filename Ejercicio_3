@@ -1,0 +1,24 @@
+/*Realizar un algoritmo que convierta una velocidad en km/h a m/s. Posteriormente codificar el
+algoritmo en lenguaje C. Usar datos de tipo float. . Los datos de entrada se introducirán en la
+declaración de las variables. */
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    float velocidad;
+    float resultado;
+
+    cout<<"\n\tIntroduzca velocidad en Km/h: ";
+    cin>>velocidad;
+
+    resultado = velocidad / 3.6;
+    
+    cout<<"\n\tLa velocidad es de "<<resultado<<" metros por segundo"<<endl;
+    
+    system("pause");
+    
+
+    return 0;
+}
